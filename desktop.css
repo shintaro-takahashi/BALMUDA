@@ -1,0 +1,50 @@
+.topics_wrapper{
+  padding: 4rem 0 1rem;
+    background-color: #fbfbfb;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.lazyload {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.viewport {
+  position: relative;
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.topics_wrapper .topics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.topics_wrapper 
+.topics 
+.topic {
+  width: 32%;
+  max-width: 320px;
+  height: 350px;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .topics_wrapper .topics .topic .__image.loaded.__5 
+  {
+      background-image: url(../img/desktop/post/5@2x.jpg?20200420);
+  }
+}
+
+.topics_wrapper .topics .topic .__title {
+  margin-bottom: .5rem;
+}
+
+.topics_wrapper .topics .topic .__description {
+  font-size: .8rem;
+  color: #999;
+}
