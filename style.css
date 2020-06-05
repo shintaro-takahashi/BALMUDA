@@ -16,14 +16,23 @@ body {
   font-weight: bold;
 }
 
+.brand {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+
+}
 .menu {
   font-size: 20px;
 }
 
-
-.brand {
-  position: relative;
+.sunp {
+  font-size: 13px;
+  line-height: 10px;
 }
+
+
 
 .navigation {
   position: relative;
